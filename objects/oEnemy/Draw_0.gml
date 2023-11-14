@@ -2,10 +2,6 @@
 // You can write your code in this editor
 
 
-xSpeed = 0;
-ySpeed = 0;
-moveSpeed = 1.2;
+draw_self();
 
-dir = 0;
-
-hp = 10;
+//draw_text(x, y + 10, string(shootTimer));

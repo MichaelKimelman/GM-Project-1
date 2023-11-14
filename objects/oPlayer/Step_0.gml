@@ -7,6 +7,10 @@ keyLeft = keyboard_check(ord("A"));
 keyUp = keyboard_check(ord("W"));
 keyDown = keyboard_check(ord("S"));
 
+//TAKE DAMAGE
+
+
+//MOVE
 xDir = keyRight - keyLeft;
 yDir = keyDown - keyUp;
 
@@ -17,3 +21,8 @@ dir = point_direction(0, 0, xDir, yDir);
 
 x += lengthdir_x(moveSpeed * moveAmount, dir);
 y += lengthdir_y(moveSpeed * moveAmount, dir);
+
+if(hp <= 0)
+{
+	instance_destroy();
+}

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "sPlayer",
+  "name": "sEnemy0",
   "bbox_bottom": 9,
   "bbox_left": 0,
   "bbox_right": 9,
@@ -13,26 +13,26 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"93a642c6-e89c-40df-a7a5-484b064680df",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a0bc3729-5bb2-4322-8d64-247a873f1e24",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 10,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7cd71b45-ccd1-4d13-9cb4-9fa230910188","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"c85f808a-a141-4ebf-96ce-90fa2979d4b8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "Enemy",
+    "path": "folders/Sprites/Entities/Enemy.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "sPlayer",
+    "name": "sEnemy0",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"93a642c6-e89c-40df-a7a5-484b064680df","path":"sprites/sPlayer/sPlayer.yy",},},},"Disabled":false,"id":"ccf05de9-cd37-4f10-a278-9d885774c18a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a0bc3729-5bb2-4322-8d64-247a873f1e24","path":"sprites/sEnemy0/sEnemy0.yy",},},},"Disabled":false,"id":"1c5beb4a-bcd6-4a97-adbc-aeb134113a9e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
