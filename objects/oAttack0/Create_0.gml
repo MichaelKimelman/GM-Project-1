@@ -3,10 +3,13 @@
 
 
 //MOVE PROPERTIES
-
+event_inherited();
 moveSpd = 2;
 ownerId = 0;
 dist = 0;
 yAmount = 0;
 
 markedForDestruction = false;
+
+hitWall = false;
+countDownToDestroy = 0;

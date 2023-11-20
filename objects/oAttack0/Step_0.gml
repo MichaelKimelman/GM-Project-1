@@ -10,7 +10,7 @@ if(!global.gamePaused)
 	
 	//CONDITION TO DESTROY
 	
-	if(abs(dist) >= 440)
+	if(countDownToDestroy >= 200 && hitWall)
 	{
 		instance_destroy();
 	}
@@ -23,6 +23,16 @@ if(!global.gamePaused)
 	if(place_meeting(x, y, oCover))
 	{
 		markedForDestruction = true;
+	}
+	
+	if(tilemap_get_at_pixel(collisionTileMap, x , y))
+	{
+		moveSpd *= -1;
+		hitWall = true;
+	}
+	if(hitWall)
+	{
+		countDownToDestroy++;
 	}
 	
 	if(place_meeting(x, y, oPlayer))
